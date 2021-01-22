@@ -2,7 +2,7 @@
 ✂️📧 Automatic mailtrack signature remover
 
 ## How to install
-1. clone the GitHub repo or [download the zip file](https://github.com/medartus/mailtrack-signature-remover/archive/main.zip)
+1. Clone the GitHub repo or [download the zip file](https://github.com/medartus/mailtrack-signature-remover/archive/main.zip)
 ```bash
 git clone https://github.com/medartus/mailtrack-signature-remover.git
 ```
