@@ -2,7 +2,7 @@
   "name": "Remove MT signature",
   "version": "1.0",
   "description": "Clears the annoying signature of Mailtrack.",
-  "permissions": ["activeTab", "declarativeContent", "tabs", "https://mail.google.com/"],
+  "permissions": ["activeTab", "declarativeContent", "tabs"],
   "content_scripts": [
         {
         "matches": [
@@ -19,5 +19,5 @@
       "48": "images/icon48.png",
       "128": "images/icon128.png"
     },
-    "manifest_version": 3
+    "manifest_version": 2
 }
