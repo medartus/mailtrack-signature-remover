@@ -1,0 +1,19 @@
+{
+  "name": "Remove MT signature",
+  "version": "1.0",
+  "description": "✂️📧 Automatic mailtrack signature remover",
+  "permissions": [
+    "tabs","<all_urls>"
+    ],
+    "content_scripts": [
+        {
+        "matches": [
+            "http://mail.google.com/*",
+            "https://mail.google.com/*"
+            ],
+        "js": ["remover.js"],
+        "run_at": "document_end"
+        }
+    ], 
+  "manifest_version": 2
+}
