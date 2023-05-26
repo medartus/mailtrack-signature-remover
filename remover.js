@@ -38,5 +38,5 @@ buttonClick = (buttonClass) => {
 // Later, you can stop observing
 removeSig = () => {
 	buttonClick('.mt-remove-signature-button > .mt-remove')
-	buttonClick('.modal-header > .close')
+	buttonClick('.modal__close')
 }
